@@ -1,0 +1,17 @@
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute items evenly */
+  }
+  
+  .section {
+    width: 45%; /* Adjust section widths as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  img {
+    max-width: 100%; /* Ensure image doesn't overflow its container */
+    height: auto;     /* Maintain aspect ratio */
+  }
+  
